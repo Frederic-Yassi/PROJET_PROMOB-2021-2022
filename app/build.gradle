@@ -3,12 +3,13 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    namespace 'com.example.friendsgame'
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.example.friendsgame"
         minSdk 18
-        targetSdk 31
+        targetSdk 35
         versionCode 1
         versionName "1.0"
 

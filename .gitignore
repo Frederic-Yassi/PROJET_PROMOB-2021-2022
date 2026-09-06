@@ -1,0 +1,53 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android / local machine
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.hprof
+output-metadata.json
+
+# Android Studio / IntelliJ
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules/
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/shelf/
+.idea/misc.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/compiler.xml
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*~
+
+# Keystores (do not commit secrets)
+*.jks
+*.keystore
+!debug.keystore
+
+# Cursor / VS Code
+.vscode/
+*.code-workspace
+
+# Kotlin
+.kotlin/
